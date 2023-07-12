@@ -1,0 +1,29 @@
+input{
+	border-radius:10px;
+	border-style:solid;
+
+	height:6%;
+	min-height:50px;
+	margin:1%;
+}
+
+#field{
+	width:80%;
+	min-width:60%;
+
+}
+
+.sub{
+	width:39%;
+	background: #f8ffef;
+}
+form{
+	width:80%;
+}
+body{
+	background: #f4f4ff;
+}
+.checkbox{
+	min-height:unset;
+	height:unset;
+}
