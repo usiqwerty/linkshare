@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+<head>
+<title>Ссылка создана</title>
+<link href="{% static 'style.css' %}" rel='stylesheet'>
+</head>
+<body>
+<h1>linkshare</h1>
+
+<center>
+<h2>Ссылка: <a href={{link}}>{{link}}</a></h2><br>
+{{ad_msg}}<br>
+{% if allowdelete %}
+<form action='delete' method=POST>
+{% csrf_token %}
+<input type='hidden' name='code' value='{{code}}'>
+<input type='submit' value='{{delete}}'>
+</form>
+{% endif %}
+</center>
+</body>
+</html>
