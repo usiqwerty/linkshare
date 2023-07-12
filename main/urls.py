@@ -23,8 +23,8 @@ urlpatterns = [
 	path('post', views.post),
 	path('delete', views.delete),
 ]
-handler400=views.handler_400
-handler403=views.handler_403
-handler404=views.handler_404
-handler500=views.handler_500
+#handler400=views.handler_400
+#handler403=views.handler_403
+#handler404=views.handler_404
+#handler500=views.handler_500
 
